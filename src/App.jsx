@@ -1,17 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import ScrollToTop from "./components/ScrollToTop";
+import Skills from "./components/Skills";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className='text-3xl font-bold underline text-red-500 text-center mt-5'>Hello Vite + React</h1>
-    </>
-  )
+   <>
+   <Navbar/>
+   <Hero/>
+   <About/>
+   <Skills/>
+   <Experience/>
+   <Projects/>
+   <Education/>
+   <Contact/>
+   <Footer/>
+
+   <ScrollToTop/>
+   </>
+  );
 }
 
-export default App
+export default App;

@@ -1,1 +1,40 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+::selection {
+  background: #06b6d4;
+  color: white;
+}
+.swiper-pagination-bullet {
+  background: #06b6d4 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #06b6d4 !important;
+}
+.projectSwiper {
+  padding-bottom: 60px;
+}
+
+.projectSwiper .swiper-button-next,
+.projectSwiper .swiper-button-prev {
+  color: #06b6d4;
+}
+
+.projectSwiper .swiper-pagination-bullet {
+  background: #06b6d4;
+}
+
+.projectSwiper .swiper-slide {
+  height: auto;
+}
